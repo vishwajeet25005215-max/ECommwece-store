@@ -1,0 +1,150 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #3f51b5, #5c6bc0);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Navigation */
+nav {
+    background-color: #111;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 15px 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #3f51b5;
+}
+
+/* Section */
+section {
+    background: white;
+    margin: 25px;
+    padding: 40px 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* Section Titles */
+section h2 {
+    margin-bottom: 15px;
+    color: #3f51b5;
+    border-left: 5px solid #3f51b5;
+    padding-left: 10px;
+}
+
+/* Banner */
+.banner {
+    width: 100%;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+/* Product Cards */
+.product-card {
+    display: inline-block;
+    width: 30%;
+    background: #fafafa;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+/* Checkout Form */
+.checkout-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.checkout-form input,
+.checkout-form textarea,
+.checkout-form select {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+}
+
+/* Buttons */
+.btn {
+    background-color: #3f51b5;
+    color: white;
+    padding: 12px;
+    border: none;
+    font-size: 17px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #303f9f;
+}
+
+/* Review Cards */
+.review-card {
+    background: #fafafa;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.review-card span {
+    color: #ff9800;
+    font-size: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 25px;
+}
